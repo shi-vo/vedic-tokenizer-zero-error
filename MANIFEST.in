@@ -1,0 +1,4 @@
+
+include README.md
+include LICENSE
+recursive-include vedic_tokenizer/data *.json

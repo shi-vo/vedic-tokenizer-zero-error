@@ -1,0 +1,36 @@
+{
+  "export_date": "2026-01-27T01:20:34.173732",
+  "corpus_statistics": {
+    "total_verses": 98000,
+    "total_words": 1130149,
+    "unique_words": 348231,
+    "vocabulary_diversity": 0.3081
+  },
+  "dataset_breakdown": {
+    "atharvaveda": {
+      "verses": 736,
+      "words": 71922
+    },
+    "ramayana": {
+      "verses": 22742,
+      "words": 261203
+    },
+    "bhagavad_gita": {
+      "verses": 701,
+      "words": 5382
+    },
+    "mahabharata": {
+      "verses": 73821,
+      "words": 791642
+    }
+  },
+  "word_length_statistics": {
+    "min_length": 2,
+    "max_length": 86,
+    "avg_length": 10.17
+  },
+  "frequency_distribution": {
+    "top_1_percent": 489561,
+    "top_10_percent": 761768
+  }
+}

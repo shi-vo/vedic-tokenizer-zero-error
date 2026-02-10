@@ -1,0 +1,43 @@
+% This is a minimal mock of acl.sty to allow compilation if the real one is missing.
+% In a real submission, you should download the official 'acl.sty' from the conference website.
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{acl}[2025/01/01 Mock ACL style]
+
+\RequirePackage{hyperref}
+\RequirePackage{natbib}
+
+% Simple margin settings (approximate for ACL)
+\setlength\topmargin{0.2cm}
+\setlength\oddsidemargin{0cm}
+\setlength\textheight{22cm}
+\setlength\textwidth{16cm}
+\setlength\columnsep{0.6cm}  
+\newlength\titlebox 
+\setlength\titlebox{5cm}
+\setlength\headheight{5pt}   
+\setlength\headsep{0pt}
+\pagestyle{plain}
+
+\def\maketitle{\par
+ \begingroup
+   \def\thefootnote{\fnsymbol{footnote}}
+   \def\@makefnmark{\hbox to\z@{$\m@th^{\@thefnmark}$\hss}}
+   \twocolumn[\@maketitle]
+   \@thanks
+ \endgroup
+ \setcounter{footnote}{0}
+ \let\maketitle\relax
+ \let\@maketitle\relax
+ \gdef\@thanks{}\gdef\@author{}\gdef\@title{}}
+
+\def\@maketitle{%
+  \vbox to \titlebox{%
+    \hsize\textwidth\linewidth\hsize
+    \centering
+    {\Large\bf \@title \par}
+    \vskip 2em
+    {\large \@author \par}
+    \vskip 1em}}
+
+\endinput

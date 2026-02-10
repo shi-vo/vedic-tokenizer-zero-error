@@ -1,0 +1,842 @@
+{
+  "metadata": {
+    "export_date": "2026-01-27T01:20:34.077566",
+    "total_rules": 46,
+    "categories": {
+      "vowel": 33,
+      "consonant": 10,
+      "visarga": 3,
+      "special": 0
+    }
+  },
+  "rules": [
+    {
+      "rule_id": "VS01",
+      "category": "svara",
+      "left_pattern": "अ",
+      "right_pattern": "अ",
+      "result": "आ",
+      "priority": 10,
+      "vedic_only": false,
+      "panini_sutra": "6.1.101",
+      "description": "a + a → ā",
+      "examples": [
+        {
+          "left": "रम",
+          "right": "अति",
+          "combined": "रमाति"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS02",
+      "category": "svara",
+      "left_pattern": "आ",
+      "right_pattern": "अ",
+      "result": "आ",
+      "priority": 10,
+      "vedic_only": false,
+      "panini_sutra": "6.1.101",
+      "description": "ā + a → ā",
+      "examples": [
+        {
+          "left": "रमा",
+          "right": "अति",
+          "combined": "रमाति"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS03",
+      "category": "svara",
+      "left_pattern": "अ",
+      "right_pattern": "आ",
+      "result": "आ",
+      "priority": 10,
+      "vedic_only": false,
+      "panini_sutra": "6.1.101",
+      "description": "a + ā → ā",
+      "examples": [
+        {
+          "left": "तत्र",
+          "right": "आगच्छति",
+          "combined": "तत्रागच्छति"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS04",
+      "category": "svara",
+      "left_pattern": "आ",
+      "right_pattern": "आ",
+      "result": "आ",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "6.1.101",
+      "description": "ā + ā → ā",
+      "examples": [
+        {
+          "left": "रमा",
+          "right": "आगच्छति",
+          "combined": "रमागच्छति"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS05",
+      "category": "svara",
+      "left_pattern": "इ",
+      "right_pattern": "इ",
+      "result": "ई",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "6.1.101",
+      "description": "i + i → ī",
+      "examples": [
+        {
+          "left": "कवि",
+          "right": "इन्द्रः",
+          "combined": "कवीन्द्रः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS06",
+      "category": "svara",
+      "left_pattern": "ई",
+      "right_pattern": "इ",
+      "result": "ई",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "6.1.101",
+      "description": "ī + i → ī",
+      "examples": [
+        {
+          "left": "नदी",
+          "right": "इव",
+          "combined": "नदीव"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS07",
+      "category": "svara",
+      "left_pattern": "उ",
+      "right_pattern": "उ",
+      "result": "ऊ",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": "6.1.101",
+      "description": "u + u → ū",
+      "examples": [
+        {
+          "left": "साधु",
+          "right": "उक्तिः",
+          "combined": "साधूक्तिः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS08",
+      "category": "svara",
+      "left_pattern": "ऊ",
+      "right_pattern": "उ",
+      "result": "ऊ",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": "6.1.101",
+      "description": "ū + u → ū",
+      "examples": [
+        {
+          "left": "वधू",
+          "right": "उक्तिः",
+          "combined": "वधूक्तिः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS09",
+      "category": "svara",
+      "left_pattern": "अ",
+      "right_pattern": "इ",
+      "result": "ए",
+      "priority": 10,
+      "vedic_only": false,
+      "panini_sutra": "6.1.87",
+      "description": "a + i → e (guna)",
+      "examples": [
+        {
+          "left": "रम",
+          "right": "इति",
+          "combined": "रमेति"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS10",
+      "category": "svara",
+      "left_pattern": "अ",
+      "right_pattern": "ई",
+      "result": "ए",
+      "priority": 10,
+      "vedic_only": false,
+      "panini_sutra": "6.1.87",
+      "description": "a + ī → e (guna)",
+      "examples": [
+        {
+          "left": "परम",
+          "right": "ईश्वरः",
+          "combined": "परमेश्वरः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS11",
+      "category": "svara",
+      "left_pattern": "आ",
+      "right_pattern": "इ",
+      "result": "ए",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "6.1.87",
+      "description": "ā + i → e (guna)",
+      "examples": [
+        {
+          "left": "रमा",
+          "right": "इति",
+          "combined": "रमेति"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS12",
+      "category": "svara",
+      "left_pattern": "आ",
+      "right_pattern": "ई",
+      "result": "ए",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "6.1.87",
+      "description": "ā + ī → e (guna)",
+      "examples": [
+        {
+          "left": "महा",
+          "right": "ईशः",
+          "combined": "महेशः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS13",
+      "category": "svara",
+      "left_pattern": "अ",
+      "right_pattern": "उ",
+      "result": "ओ",
+      "priority": 10,
+      "vedic_only": false,
+      "panini_sutra": "6.1.87",
+      "description": "a + u → o (guna)",
+      "examples": [
+        {
+          "left": "सुर",
+          "right": "उत्तमः",
+          "combined": "सुरोत्तमः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS14",
+      "category": "svara",
+      "left_pattern": "अ",
+      "right_pattern": "ऊ",
+      "result": "ओ",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "6.1.87",
+      "description": "a + ū → o (guna)",
+      "examples": [
+        {
+          "left": "परम",
+          "right": "ऊर्जितः",
+          "combined": "परमोर्जितः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS15",
+      "category": "svara",
+      "left_pattern": "आ",
+      "right_pattern": "उ",
+      "result": "ओ",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "6.1.87",
+      "description": "ā + u → o (guna)",
+      "examples": [
+        {
+          "left": "महा",
+          "right": "उदयः",
+          "combined": "महोदयः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS16",
+      "category": "svara",
+      "left_pattern": "आ",
+      "right_pattern": "ऊ",
+      "result": "ओ",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "6.1.87",
+      "description": "ā + ū → o (guna)",
+      "examples": [
+        {
+          "left": "महा",
+          "right": "ऊर्जः",
+          "combined": "महोर्जः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS17",
+      "category": "svara",
+      "left_pattern": "अ",
+      "right_pattern": "ऋ",
+      "result": "अर्",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": "6.1.87",
+      "description": "a + ṛ → ar (guna)",
+      "examples": [
+        {
+          "left": "महा",
+          "right": "ऋषिः",
+          "combined": "महर्षिः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS18",
+      "category": "svara",
+      "left_pattern": "आ",
+      "right_pattern": "ऋ",
+      "result": "अर्",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": "6.1.87",
+      "description": "ā + ṛ → ar (guna)",
+      "examples": [
+        {
+          "left": "महा",
+          "right": "ऋषिः",
+          "combined": "महर्षिः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS19",
+      "category": "svara",
+      "left_pattern": "अ",
+      "right_pattern": "ए",
+      "result": "ऐ",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": "6.1.88",
+      "description": "a + e → ai (vriddhi)",
+      "examples": [
+        {
+          "left": "तथा",
+          "right": "एव",
+          "combined": "तथैव"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS20",
+      "category": "svara",
+      "left_pattern": "आ",
+      "right_pattern": "ए",
+      "result": "ऐ",
+      "priority": 7,
+      "vedic_only": false,
+      "panini_sutra": "6.1.88",
+      "description": "ā + e → ai (vriddhi)",
+      "examples": [
+        {
+          "left": "सदा",
+          "right": "एव",
+          "combined": "सदैव"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS21",
+      "category": "svara",
+      "left_pattern": "अ",
+      "right_pattern": "ऐ",
+      "result": "ऐ",
+      "priority": 7,
+      "vedic_only": false,
+      "panini_sutra": "6.1.88",
+      "description": "a + ai → ai (vriddhi)",
+      "examples": [
+        {
+          "left": "तत्र",
+          "right": "ऐश्वर्यम्",
+          "combined": "तत्रैश्वर्यम्"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS22",
+      "category": "svara",
+      "left_pattern": "अ",
+      "right_pattern": "ओ",
+      "result": "औ",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": "6.1.88",
+      "description": "a + o → au (vriddhi)",
+      "examples": [
+        {
+          "left": "वन",
+          "right": "ओषधिः",
+          "combined": "वनौषधिः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS23",
+      "category": "svara",
+      "left_pattern": "आ",
+      "right_pattern": "ओ",
+      "result": "औ",
+      "priority": 7,
+      "vedic_only": false,
+      "panini_sutra": "6.1.88",
+      "description": "ā + o → au (vriddhi)",
+      "examples": [
+        {
+          "left": "महा",
+          "right": "ओजः",
+          "combined": "महौजः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS24",
+      "category": "svara",
+      "left_pattern": "अ",
+      "right_pattern": "औ",
+      "result": "औ",
+      "priority": 7,
+      "vedic_only": false,
+      "panini_sutra": "6.1.88",
+      "description": "a + au → au (vriddhi)",
+      "examples": [
+        {
+          "left": "परम",
+          "right": "औषधम्",
+          "combined": "परमौषधम्"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS25",
+      "category": "svara",
+      "left_pattern": "इ",
+      "right_pattern": "अ",
+      "result": "य",
+      "priority": 10,
+      "vedic_only": false,
+      "panini_sutra": "6.1.77",
+      "description": "i + a → ya (yan)",
+      "examples": [
+        {
+          "left": "प्रति",
+          "right": "अर्थः",
+          "combined": "प्रत्यर्थः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS26",
+      "category": "svara",
+      "left_pattern": "ई",
+      "right_pattern": "अ",
+      "result": "य",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "6.1.77",
+      "description": "ī + a → ya (yan)",
+      "examples": [
+        {
+          "left": "नदी",
+          "right": "अत्र",
+          "combined": "नद्यत्र"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS27",
+      "category": "svara",
+      "left_pattern": "उ",
+      "right_pattern": "अ",
+      "result": "व",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "6.1.77",
+      "description": "u + a → va (yan)",
+      "examples": [
+        {
+          "left": "सु",
+          "right": "आगतः",
+          "combined": "स्वागतः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS28",
+      "category": "svara",
+      "left_pattern": "ऊ",
+      "right_pattern": "अ",
+      "result": "व",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": "6.1.77",
+      "description": "ū + a → va (yan)",
+      "examples": [
+        {
+          "left": "वधू",
+          "right": "आगमनम्",
+          "combined": "वध्वागमनम्"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS29",
+      "category": "svara",
+      "left_pattern": "ऋ",
+      "right_pattern": "अ",
+      "result": "र",
+      "priority": 7,
+      "vedic_only": false,
+      "panini_sutra": "6.1.77",
+      "description": "ṛ + a → ra (yan)",
+      "examples": [
+        {
+          "left": "पितृ",
+          "right": "आदेशः",
+          "combined": "पित्रादेशः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS30",
+      "category": "svara",
+      "left_pattern": "इ",
+      "right_pattern": "आ",
+      "result": "या",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "6.1.77",
+      "description": "i + ā → yā",
+      "examples": [
+        {
+          "left": "प्रति",
+          "right": "आह",
+          "combined": "प्रत्याह"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS31",
+      "category": "svara",
+      "left_pattern": "इ",
+      "right_pattern": "उ",
+      "result": "यु",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": "6.1.77",
+      "description": "i + u → yu",
+      "examples": [
+        {
+          "left": "अति",
+          "right": "उत्तमः",
+          "combined": "अत्युत्तमः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS32",
+      "category": "svara",
+      "left_pattern": "उ",
+      "right_pattern": "आ",
+      "result": "वा",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": "6.1.77",
+      "description": "u + ā → vā",
+      "examples": [
+        {
+          "left": "सु",
+          "right": "आगतः",
+          "combined": "स्वागतः"
+        }
+      ]
+    },
+    {
+      "rule_id": "VS33",
+      "category": "svara",
+      "left_pattern": "उ",
+      "right_pattern": "इ",
+      "result": "वि",
+      "priority": 7,
+      "vedic_only": false,
+      "panini_sutra": "6.1.77",
+      "description": "u + i → vi",
+      "examples": [
+        {
+          "left": "अनु",
+          "right": "इष्टः",
+          "combined": "अन्विष्टः"
+        }
+      ]
+    },
+    {
+      "rule_id": "CS01",
+      "category": "vyanjana",
+      "left_pattern": "क्",
+      "right_pattern": "ग",
+      "result": "ग्ग",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": null,
+      "description": "k + g → gg",
+      "examples": [
+        {
+          "left": "वाक्",
+          "right": "गतः",
+          "combined": "वाग्गतः"
+        }
+      ]
+    },
+    {
+      "rule_id": "CS02",
+      "category": "vyanjana",
+      "left_pattern": "त्",
+      "right_pattern": "ज",
+      "result": "ज्ज",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": null,
+      "description": "t + j → jj",
+      "examples": [
+        {
+          "left": "तत्",
+          "right": "जलम्",
+          "combined": "तज्जलम्"
+        }
+      ]
+    },
+    {
+      "rule_id": "CS03",
+      "category": "vyanjana",
+      "left_pattern": "त्",
+      "right_pattern": "च",
+      "result": "च्च",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "8.4.40",
+      "description": "t + c → cc",
+      "examples": [
+        {
+          "left": "तत्",
+          "right": "च",
+          "combined": "तच्च"
+        }
+      ]
+    },
+    {
+      "rule_id": "CS04",
+      "category": "vyanjana",
+      "left_pattern": "त्",
+      "right_pattern": "श",
+      "result": "च्छ",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": null,
+      "description": "t + ś → cch",
+      "examples": [
+        {
+          "left": "तत्",
+          "right": "शास्त्रम्",
+          "combined": "तच्छास्त्रम्"
+        }
+      ]
+    },
+    {
+      "rule_id": "CS05",
+      "category": "vyanjana",
+      "left_pattern": "द्",
+      "right_pattern": "ध",
+      "result": "द्ध",
+      "priority": 7,
+      "vedic_only": false,
+      "panini_sutra": null,
+      "description": "d + dh → ddh",
+      "examples": [
+        {
+          "left": "तद्",
+          "right": "धनम्",
+          "combined": "तद्धनम्"
+        }
+      ]
+    },
+    {
+      "rule_id": "CS06",
+      "category": "vyanjana",
+      "left_pattern": "र्",
+      "right_pattern": "न",
+      "result": "र्ण",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": "8.4.1",
+      "description": "r + n → rṇ",
+      "examples": [
+        {
+          "left": "प्र",
+          "right": "नाम",
+          "combined": "प्रणाम"
+        }
+      ]
+    },
+    {
+      "rule_id": "CS07",
+      "category": "vyanjana",
+      "left_pattern": "ष्",
+      "right_pattern": "न",
+      "result": "ष्ण",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": null,
+      "description": "ṣ + n → ṣṇ",
+      "examples": [
+        {
+          "left": "विष",
+          "right": "नाशः",
+          "combined": "विष्णाशः"
+        }
+      ]
+    },
+    {
+      "rule_id": "CS08",
+      "category": "vyanjana",
+      "left_pattern": "म्",
+      "right_pattern": "क",
+      "result": "ं",
+      "priority": 10,
+      "vedic_only": false,
+      "panini_sutra": "8.3.23",
+      "description": "m + k → ṃk",
+      "examples": [
+        {
+          "left": "रामम्",
+          "right": "करोति",
+          "combined": "रामं"
+        }
+      ]
+    },
+    {
+      "rule_id": "CS09",
+      "category": "vyanjana",
+      "left_pattern": "म्",
+      "right_pattern": "च",
+      "result": "ं",
+      "priority": 10,
+      "vedic_only": false,
+      "panini_sutra": null,
+      "description": "m + c → ṃc",
+      "examples": [
+        {
+          "left": "तम्",
+          "right": "च",
+          "combined": "तं"
+        }
+      ]
+    },
+    {
+      "rule_id": "CS10",
+      "category": "vyanjana",
+      "left_pattern": "म्",
+      "right_pattern": "त",
+      "result": "ं",
+      "priority": 10,
+      "vedic_only": false,
+      "panini_sutra": null,
+      "description": "m + t → ṃt",
+      "examples": [
+        {
+          "left": "तम्",
+          "right": "तु",
+          "combined": "तं"
+        }
+      ]
+    },
+    {
+      "rule_id": "VIS01",
+      "category": "visarga",
+      "left_pattern": "अः",
+      "right_pattern": "अ",
+      "result": "ओऽ",
+      "priority": 10,
+      "vedic_only": false,
+      "panini_sutra": "6.1.114",
+      "description": "aḥ + a → o'",
+      "examples": [
+        {
+          "left": "रामः",
+          "right": "अत्र",
+          "combined": "रामोऽत्र"
+        }
+      ]
+    },
+    {
+      "rule_id": "VIS02",
+      "category": "visarga",
+      "left_pattern": "अः",
+      "right_pattern": "आ",
+      "result": "ओ",
+      "priority": 9,
+      "vedic_only": false,
+      "panini_sutra": null,
+      "description": "aḥ + ā → o",
+      "examples": [
+        {
+          "left": "रामः",
+          "right": "आगच्छति",
+          "combined": "रामो"
+        }
+      ]
+    },
+    {
+      "rule_id": "VIS03",
+      "category": "visarga",
+      "left_pattern": "अः",
+      "right_pattern": "इ",
+      "result": "ओ",
+      "priority": 8,
+      "vedic_only": false,
+      "panini_sutra": null,
+      "description": "aḥ + i → o",
+      "examples": [
+        {
+          "left": "रामः",
+          "right": "इच्छति",
+          "combined": "रामो"
+        }
+      ]
+    }
+  ]
+}

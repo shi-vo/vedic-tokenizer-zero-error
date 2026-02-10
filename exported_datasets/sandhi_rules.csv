@@ -1,0 +1,47 @@
+rule_id,category,left_pattern,right_pattern,result,priority,vedic_only,panini_sutra,description
+VS01,svara,अ,अ,आ,10,False,6.1.101,a + a → ā
+VS02,svara,आ,अ,आ,10,False,6.1.101,ā + a → ā
+VS03,svara,अ,आ,आ,10,False,6.1.101,a + ā → ā
+VS04,svara,आ,आ,आ,9,False,6.1.101,ā + ā → ā
+VS05,svara,इ,इ,ई,9,False,6.1.101,i + i → ī
+VS06,svara,ई,इ,ई,9,False,6.1.101,ī + i → ī
+VS07,svara,उ,उ,ऊ,8,False,6.1.101,u + u → ū
+VS08,svara,ऊ,उ,ऊ,8,False,6.1.101,ū + u → ū
+VS09,svara,अ,इ,ए,10,False,6.1.87,a + i → e (guna)
+VS10,svara,अ,ई,ए,10,False,6.1.87,a + ī → e (guna)
+VS11,svara,आ,इ,ए,9,False,6.1.87,ā + i → e (guna)
+VS12,svara,आ,ई,ए,9,False,6.1.87,ā + ī → e (guna)
+VS13,svara,अ,उ,ओ,10,False,6.1.87,a + u → o (guna)
+VS14,svara,अ,ऊ,ओ,9,False,6.1.87,a + ū → o (guna)
+VS15,svara,आ,उ,ओ,9,False,6.1.87,ā + u → o (guna)
+VS16,svara,आ,ऊ,ओ,9,False,6.1.87,ā + ū → o (guna)
+VS17,svara,अ,ऋ,अर्,8,False,6.1.87,a + ṛ → ar (guna)
+VS18,svara,आ,ऋ,अर्,8,False,6.1.87,ā + ṛ → ar (guna)
+VS19,svara,अ,ए,ऐ,8,False,6.1.88,a + e → ai (vriddhi)
+VS20,svara,आ,ए,ऐ,7,False,6.1.88,ā + e → ai (vriddhi)
+VS21,svara,अ,ऐ,ऐ,7,False,6.1.88,a + ai → ai (vriddhi)
+VS22,svara,अ,ओ,औ,8,False,6.1.88,a + o → au (vriddhi)
+VS23,svara,आ,ओ,औ,7,False,6.1.88,ā + o → au (vriddhi)
+VS24,svara,अ,औ,औ,7,False,6.1.88,a + au → au (vriddhi)
+VS25,svara,इ,अ,य,10,False,6.1.77,i + a → ya (yan)
+VS26,svara,ई,अ,य,9,False,6.1.77,ī + a → ya (yan)
+VS27,svara,उ,अ,व,9,False,6.1.77,u + a → va (yan)
+VS28,svara,ऊ,अ,व,8,False,6.1.77,ū + a → va (yan)
+VS29,svara,ऋ,अ,र,7,False,6.1.77,ṛ + a → ra (yan)
+VS30,svara,इ,आ,या,9,False,6.1.77,i + ā → yā
+VS31,svara,इ,उ,यु,8,False,6.1.77,i + u → yu
+VS32,svara,उ,आ,वा,8,False,6.1.77,u + ā → vā
+VS33,svara,उ,इ,वि,7,False,6.1.77,u + i → vi
+CS01,vyanjana,क्,ग,ग्ग,8,False,,k + g → gg
+CS02,vyanjana,त्,ज,ज्ज,8,False,,t + j → jj
+CS03,vyanjana,त्,च,च्च,9,False,8.4.40,t + c → cc
+CS04,vyanjana,त्,श,च्छ,8,False,,t + ś → cch
+CS05,vyanjana,द्,ध,द्ध,7,False,,d + dh → ddh
+CS06,vyanjana,र्,न,र्ण,9,False,8.4.1,r + n → rṇ
+CS07,vyanjana,ष्,न,ष्ण,8,False,,ṣ + n → ṣṇ
+CS08,vyanjana,म्,क,ं,10,False,8.3.23,m + k → ṃk
+CS09,vyanjana,म्,च,ं,10,False,,m + c → ṃc
+CS10,vyanjana,म्,त,ं,10,False,,m + t → ṃt
+VIS01,visarga,अः,अ,ओऽ,10,False,6.1.114,aḥ + a → o'
+VIS02,visarga,अः,आ,ओ,9,False,,aḥ + ā → o
+VIS03,visarga,अः,इ,ओ,8,False,,aḥ + i → o
