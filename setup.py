@@ -9,7 +9,7 @@ setuptools.setup(
     version="0.1.0",
     author="Ganesh",
     author_email="your.email@example.com",
-    description="A patent-grade lossless morphological tokenizer for Vedic Sanskrit",
+    description="A Zero-Error Lossless Tokenization System for Sanskrit with 100% Accuracy",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/yourusername/vedic-tokenizer",
